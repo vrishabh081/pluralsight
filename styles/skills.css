@@ -23,43 +23,25 @@ body{
 
 /*$$$$$$$$$$$*********** top tech image **********$$$$$$$$*/
 #r_top_tech_image_div{
-    display: flex;
-    height: auto;
+    background-image: url('https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block1_copy_/image-res.img.76b3d816-71a6-42a0-bda5-b56969081f12.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 55vh;
+    margin: auto 0px auto auto;
+    width: 100%;
+    border: 1px solid black;
     color: white;
 }
-#r_top_tech_image_div>div{
-    margin: auto;
+#r_top_tech_image_div>h1{
+    font-size: 3.1rem;
 }
-#r_top_tech_image_div>div:nth-child(1)
-{
-    width: 30%;
-    height: 70vh;
-    background-color: black;
+#r_top_tech_image_div>h1{
+    margin: 7%;
+    margin-bottom: auto;
 }
-#r_main_head{
-    font-size: 36px;
-    margin: 15vh 0;
-}
-#r_top_tech_image_div>div:nth-child(2)
-{
-    width: 70%;
-    height: 70vh;
-    background-image: url('https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
-    background-size: cover;
-}
-#r_try_btn{
-    padding: 18px 34px 18px 34px;
-    justify-content: center;
-    align-items: center;
-    background-color: #EC008C;
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-    margin: 60vh 10vh 0 10vh;
+#r_top_tech_image_div>p{
+    margin: auto 7% 7% 7%;
 }
 
 /* $$$$$$$$$*********course div *********$$$$$$$$$*/
@@ -180,4 +162,86 @@ p{
 }
 #r_child_organization_div>img{
     width: 6%;
+}
+
+/*$$$$$$$$********* ROI div *********$$$$$$$$$*/
+
+#r_ROI_div{
+    background-image: linear-gradient(to right,#ec018b, #f15b2a);
+    text-align: center;
+    padding: 5vh 0;
+}
+#r_ROI_div>h1{
+    color: white;
+    margin: 2% 0;
+}
+#r_child_ROI_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 2% 0;
+}
+#r_child_ROI_div>div{
+    margin: auto;
+    width: 50%;
+    color: #181818;
+}
+#r_child_ROI_div>div>img{
+    width: 80%;
+}
+#r_child_ROI_div>div>p{
+    margin: 5% 0;
+}
+
+/*$$$$$$$$$********** watch story div **********$$$$$$$$$$*/
+#r_watch_story_div{
+    margin: 3vh 0;
+    color: white;
+    display: flex;
+    padding: 10vh 0;
+}
+#r_watch_story_div>div{
+    margin: auto;
+}
+#r_watch_story_div>img,#r_watch_story_div>p{
+    margin: 2%;
+}
+#r_watch_story_div p, #r_watch_story_div a{
+    margin: 3% 0;
+}
+#r_watch_story_div a{
+    color: white;
+    text-decoration: none;
+}
+.font_bold{
+    font-weight: bold;
+}
+
+/*$$$$$$$$********* Pricing Div-********$$$$$$$$*/
+#r_pricing_div{
+    color: white;
+    text-align: center;
+    background-color: #222222;
+    margin: 2% 0;
+    padding: 2% 0;
+}
+#r_pricing_div h1, #r_pricing_div h2, #r_pricing_div p{
+    margin: 2% 0;
+}
+#r_child_pricing_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#r_child_pricing_div>div{
+    margin: 2vh;
+    padding: 10vh 0;
+    box-shadow: rgba(189, 188, 195, 0.15) 0px 48px 100px 0px;
+}
+#r_pricing_div button{
+    padding: 2.5vh 5.5vh;
+    background-image: linear-gradient(to right,#ec018b, #f15b2a);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
 }
