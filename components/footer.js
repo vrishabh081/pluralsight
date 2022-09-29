@@ -2,7 +2,7 @@ function showFooter(){
     document.getElementById("footer").innerHTML = `<div class="footer-container">
     <div class="box">
     <h3>Support</h3>
-    <p>Contact</p>
+    <p><a href = "">Contact</a></p>
     <P>Help Center</p>
     <p>IP Allowlist</p>
      <p>
@@ -23,7 +23,7 @@ function showFooter(){
 </div>
 <div class="box">
     <h3>Company</h3>
-    <p>About us</p>
+    <p><a href = "">About us</a></p>
     <p>
     Careers</p>
     <p>Newsroom</p>
