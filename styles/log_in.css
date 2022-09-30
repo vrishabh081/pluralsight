@@ -9,7 +9,7 @@ body{
     display: flex;
 }
 #r_first_part_log_in_div{
-    width: 40%;
+    width: 550px;
     text-align: center;
     color: white;
     background-color: #181818;
@@ -18,7 +18,7 @@ body{
     width: 55%;
     margin-top: 6vh;
 }
-form{
+#form{
     width: 65%;
     margin: auto;
     margin-top: 8.2vh;
@@ -75,3 +75,14 @@ form{
 }
 
 /*$$$$$$$$$********* for responsive- *********$$$$$$$$$*/
+@media screen and (max-width:780px){
+    #r_first_part_log_in_div{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    #r_second_part_log_in_div{
+        display: none;
+    }
+}
