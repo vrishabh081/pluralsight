@@ -95,9 +95,5 @@
     color: white;
     font-weight: 700;
     background-size: 300% 100%;
-    background: linear-gradient(to right,#f05a28,#f05a28,#ec008c);
+    background: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
 }
-#branch2>img+button+button:hover{
-    background: linear-gradient(to left,#ec008c,#f05a28,#f05a28,);
-}
-/* #branch2>img+button+button: */
