@@ -1,0 +1,149 @@
+  body{
+    background-color: black;
+  }
+
+#contact>img {
+   width: 100%;
+
+}
+.A{
+    width: 10%;
+    height: 50px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.B{
+    width: 10%;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: -20px;
+}
+#contact > p{
+    color: white;
+    font-size: 40px;
+    margin-top: -160px;
+}
+.C{
+    color: white;
+    margin-top: 90px;
+    font-size: 40px;
+     margin-left: 80px;
+}
+.D{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 80px;
+}
+#skills p{
+    color: white;
+    
+}
+#skills2 p{
+    color: white;
+}
+#master {
+    display: flex;
+    justify-content: space-evenly;
+   background-color:  rgba(0, 0, 0, 0.089);
+}
+#skills input{
+    font-size: 35px;
+   background-color:transparent ;
+}
+#skills2 input{
+    font-size: 35px;
+    background-color:transparent ;
+}
+.f{
+    color: white;
+    margin-left: 50px;
+}
+.g{
+    margin-left: 50px;
+    font-size: 30px;
+    background-color: violet;
+    cursor: pointer;
+}
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3, 200px);
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.705);
+    gap:20px;
+}
+
+#grid1 >div p {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+#grid2 {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 200px;
+    margin-top: 100px;
+    background-color: rgba(31, 16, 16, 0.705);
+    gap:20px;
+}
+
+#grid2 >div p {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.H {
+    background-color: transparent;
+    font-size: 40px;
+    color: grey;
+    cursor: pointer;
+}
+#button2
+{
+    background-color: rgb(41, 32, 32);
+}
+
+h2{
+    color: white;
+}
+#grid3 {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: 200px;
+    margin-top: 100px;
+    background-color: rgba(68, 63, 63, 0.705);
+    gap:20px;
+    cursor: pointer;
+}
+
+#grid3 >div img {
+    width: 100%
+}
+
+#men {
+    color: white;
+    margin-top: 230px;
+    text-align: center;
+}
+
+#grid4 {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: 200px, 200px;
+    gap:20px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+#grid4 >div img {
+    width: 60%;
+}
+.a{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
