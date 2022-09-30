@@ -47,7 +47,7 @@
 #n_nav2>#branch1{
     width: 700px;
     height: 40px;
-    border: 1px solid red;
+  
     display: flex;
     justify-content: space-between;
     color: white;
@@ -67,10 +67,12 @@
 #n_nav2>#branch2{
     width: 400px;
     height: 50px;
+    margin-top: 15px;
     margin-right: 40px;
-     border: 1px solid red;
+    
      display: flex;
      justify-content: space-between;
+     font-weight: 700;
 }
 #branch2>img+button{
     width: 164px;
@@ -81,10 +83,21 @@
     font-weight: 700;
     font-size: 14px;
 }
+#branch2>img+button:hover{
+    background-color: white;
+    color: black;
+}
 #branch2>img+button+button{
     width: 142px;
     height: 40px;
     font-size: 14px;
-    gradient {
-        background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    border-radius:0px;  
+    color: white;
+    font-weight: 700;
+    background-size: 300% 100%;
+    background: linear-gradient(to right,#f05a28,#f05a28,#ec008c);
 }
+#branch2>img+button+button:hover{
+    background: linear-gradient(to left,#ec008c,#f05a28,#f05a28,);
+}
+/* #branch2>img+button+button: */
