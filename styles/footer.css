@@ -1,0 +1,142 @@
+#footer {
+    background-color: #222222;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+}
+.footer-container .box {
+    cursor: pointer;
+    color: #7c7c7d;
+    font-weight: 500;
+    transition: color .3s ease;
+    font-size: 13px;
+}
+#footer .box>h3 {
+    color: white;
+    margin: 40px;
+}
+#footer .box>p:hover {
+    color: white;
+}
+#footer .box>p {
+    margin: 20px 0px 0px 40px;
+    color: #7c7c7d;
+    font-weight: normal !important;
+}
+#footer .language {
+    margin: 10px 85px 10px 85px;
+    display: flex;
+    height: 20px;
+    border-top: 0.1px solid #424242;
+    border-bottom: 0.3px solid #424242;
+    padding: 30px 0px 30px 0px;
+    cursor: pointer;
+}
+#footer .language>div {
+    color: #7c7c7d;
+    padding: 0px 20px 0px 20px;
+}
+#footer .language>:nth-child(3) {
+    color: white;
+}
+#footer .contact {
+    display: flex;
+    height: 40px;
+}
+#footer .contact>div {
+    padding: 30px;
+}
+#footer .base {
+    display: flex;
+    height: 20px;
+    padding-top: 20px;
+    border: 0px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    margin-right: 65px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+#footer .base img {
+    padding-top: 10px;
+    width: 34px;
+    height: 34px;
+    margin-left: 65px;
+    cursor: pointer;
+}
+#footer .base i {
+    color: white;
+    padding: 5px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#footer .change {
+    padding-top: 20px;
+    color: #7c7c7d;
+    font-size: 12px;
+    cursor: text;
+}
+#footer .hoverme:hover {
+    color: white;
+}
+
+#button1{
+   margin-top:40px;
+   width:40%;
+   height:15%;
+   background-color: blue;
+   margin-left: 40px;
+   color:white;
+   cursor:pointer
+}
+#button2{
+  margin-top:10px;
+  margin-left: 40px;
+height:10%;
+width:90%;
+
+}
+#images{
+  margin-left:40px;
+   margin-top:30px
+  
+
+}
+#A1{
+    margin-left:15px;
+}
+#A2{
+    margin-left:15px;
+}
+#A3{
+    margin-left:15px;
+}
+#A4{
+    margin-left:15px;
+}
+#A5{
+    margin-left:15px;
+}
+.base>img{
+    margin-top:-20px
+}
+.change{
+    margin-top:-20px;
+    margin-right:30px
+}
+#A6{
+    margin-right:40px
+}
+
+#A7{
+    margin-top:-1px;
+    margin-right:25px
+}
