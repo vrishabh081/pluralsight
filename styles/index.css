@@ -1,0 +1,558 @@
+#Mnav1{
+    height: 50px;
+    padding-left: 270px;
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/b2c-promos/cloud-happy/image%20(74).png');
+}  
+
+#Mcontent1{
+    width: 100%;
+    height: 1150px;
+    padding-top: 15px;
+    background: linear-gradient(30deg, rgba(126, 6, 78, 0.75) 0%, rgb(32, 32, 32) 50%, rgb(234, 42, 94) 90%);
+}
+
+#hero{
+    display: block;
+    width: 100%;
+    height: 450px;
+    
+    border-radius: 25px 25px 0px 0px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+    
+}
+
+/* bootstrap */
+#hero .static-txt{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#hero .dynamic-txt{
+    font-family: sans-serif;
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txt li{
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+}
+
+.dynamic-txt li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing{
+    40%, 60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+}
+
+#hero2{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#hero2 button{
+    width: 150px;
+    height: 55px;
+    font-size: large;
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(236, 0, 140);
+    background-image: linear-gradient(to right, rgb(240, 90, 40), rgb(236, 0, 140), rgb(240, 90, 40));
+    background-clip: border-box;
+    background-size: 300% 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+/* Subcontent 2 */
+#Msubcont2{
+    display: flex;
+    width: 100%;
+    height: 387px;;
+    border-radius: 0px 0px 25px 25px;
+    background: rgba(0,0,0,.5);
+}
+
+#Msubcont2 div{
+    width: 50%;
+}
+
+#Mmen{
+    width: 600px;
+    height: 380px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+/* Subcontent 3 */
+#Msubcont3 p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+#Msubcont_img{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#dell{
+    width: 200px;
+    margin-top: 20px;
+}
+#ge{
+    width: 200px;
+}
+#fed{
+    width: 150px;
+}
+#ford{
+    width: 150px;
+}
+#bt{
+    width: 70px;
+}
+
+/* PART 2 */
+#Mcontent2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+#Msubcont1p2{
+    width: 100%;
+}
+#Msubcont1p2 h1{
+    font-size: 60PX;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 180px;
+}
+
+#Msubcont1p2 p{
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 25px;
+    line-height: 27px;
+    margin-right: 15px;
+}
+
+#Msubcont1p2 button{
+    width: 220px;
+    height: 55px;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(236, 0, 140);
+    background-image: linear-gradient(to right, rgb(240, 90, 40), rgb(236, 0, 140), rgb(240, 90, 40));
+    background-clip: border-box;
+    background-size: 300% 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+
+#Msubcont2p2{
+    width: 100%;
+}
+
+#Msubcont2p2 img{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* PART 3 */
+#Mcontent3{
+    background-color: rgba(28, 27, 27, 0.06);
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022-revamp/products-halftone-white.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 299px;
+    width: 100%;
+    height: 1300px;
+}
+
+#Mcontent3 h1{
+font-family: sans-serif;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+padding-top: 90px;
+border: 1xp solid black;
+}
+
+#Msubcont1p3{
+display: flex;
+gap: 50px;
+}
+
+/* ----------------***************-------------------- */
+
+#Msubcont1p3 > #Mskills, #Mflow{
+width: 480px;
+height: 765px;
+padding-left: 18px;
+padding-top: 20px;
+margin-left: 110px;
+border-radius: 25px;
+background-color: rgb(255, 255, 255);
+color: black;
+}
+
+.Mimgprod{
+margin-top: 35px;
+margin-left: 25px;
+}
+
+.Mpprod{
+margin-top: 35px;
+margin-left: 25px;
+font-size: 18px;
+font-family: sans-serif;
+line-height: 25px;
+}
+
+.Mpordlist{
+margin-left: 25px;
+width: 400px;
+}
+
+.Mpordlist p a{
+font-size: large;
+font-family: sans-serif;
+color: black;
+}
+
+a{
+text-decoration: none;
+}
+
+#Mskill{
+width: 85%;
+height: 200px;
+font-family: sans-serif;
+margin-left: 20px;
+color: black;
+}
+
+#Mskill p a{
+color: black;
+font-size: large;
+font-family: sans-serif;
+}
+
+#Msbutton{
+width: 170px;
+height: 55px;
+margin-left: 20px;
+margin-top: 30px;
+font-size: large;
+font-weight: bolder;
+color: #fff;
+background-color: rgb(236, 0, 140);
+background-image: linear-gradient(to right, rgb(240, 90, 40), rgb(236, 0, 140), rgb(240, 90, 40));
+background-clip: border-box;
+background-size: 300% 100%;
+cursor: pointer;
+border: none;
+border-radius: 2px;
+}
+
+#Mfbutton{
+width: 170px;
+height: 55px;
+margin-left: 25px;
+margin-top: 20px;
+font-size: large;
+font-weight: bolder;
+color: #fff;
+background-color: rgb(236, 0, 140);
+background-image: linear-gradient(to right, rgb(240, 90, 40), rgb(236, 0, 140), rgb(240, 90, 40));
+background-clip: border-box;
+background-size: 300% 100%;
+cursor: pointer;
+border: none;
+border-radius: 2px;
+}
+
+/* PART 4 */
+#Mcontent4{
+    width: auto;
+    height: 300px;
+    background-color: rgb(32, 32, 32);
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022-revamp/white-halftone.png');
+    background-blend-mode: overlay;
+    background-position-x: 0%;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    position: relative;
+}
+
+#Mcontent4{
+    display: flex;
+}
+
+
+#Msubcont1p4{
+    width: 300px;
+    color: white;
+    font-size: 28px;
+    font-family:sans-serif;
+    font-weight: 700;
+    padding-left: 25px;
+    margin-top: 110px;
+}
+
+#Mtopics a{
+    /* width: 300px; */
+    color: rgb(236, 0, 140);
+    font-size: 19px;
+    font-family:sans-serif;
+    font-weight: 700;
+}
+
+#Msubcont2p4{
+    display: flex;
+    margin-top: 140px;
+}
+
+#Msubcont2p4 div{
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    height: 55px;
+}
+
+/* PART 5 */
+#Mcontent5{
+    width: auto;
+    height: 950px;
+    background-color: rgb(32,32,32);
+    background-image: url("https://www.pluralsight.com/content/dam/ps-dam/images/solutions-custom-accordion/BG-Freeform.png");
+    background-repeat: no-repeat;
+    border: 1px solid  rgb(32,32,32) ;
+    background-position-x: 100%;
+    background-position-y: 190px;
+}
+
+#Msubcont5{
+    width: 1066px;
+    height: 770px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+#M5h31{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#M5h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+#M5h2{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#M5P a{
+color: rgb(236, 0, 140);
+font-size: 17px;
+font-family:sans-serif;
+font-weight: 700;
+}
+
+#M5graph{
+ display: flex;
+ height: 67%;
+}
+
+#M5graph div{
+    width: 100%;
+}
+
+#M5list hr{
+    margin-bottom: 40px;
+}
+
+.M5listp>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#M5list1 img{
+    width: 500px;
+    margin-left: 25px;
+}
+
+#Msubcont1pp4{
+    width: 699px;
+    height: 244px;
+    border-radius: 25px;
+    background-color: rgb(255,255,255);
+    overflow:visible;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#Msubcont1pp4 img{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#Msubcont1pp4 button{
+    width: 220px;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: large;
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(236, 0, 140);
+    background-image: linear-gradient(to right, rgb(240, 90, 40), rgb(236, 0, 140), rgb(240, 90, 40));
+    background-clip: border-box;
+    background-size: 300% 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+
+#Msuncount4p{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+
+/* PART 6 */
+#Mcontent6{
+    background-color: rgb(246,246,246);
+    border: 1px solid rgb(246,246,246);
+    width: 100%;
+    height: 821px;
+}
+
+#Mcontent6 h1{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#M6h31{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: gray;
+    font-weight: 400;
+}
+
+#M6subcont{
+    display: flex;
+    justify-content: space-around;
+}
+
+#M6subcont div{
+    width: 30%;
+    height: 386px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+#M6subcont div img{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.M6p1{
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: large;
+    line-height: 25px;
+}
+
+.M6h321{
+    margin-left: 15px;
+    font-size: 17px;
+    margin-top: 59px;
+    color: rgb(236,0,140);
+    font-family: sans-serif;
+}
+
+.M6h322{
+    margin-left: 15px;
+    margin-top: 39px;
+    font-size: 17px;
+    color: rgb(236,0,140);
+    font-family: sans-serif;
+}
+
+.M6h323{
+    margin-left: 15px;
+    color: rgb(236,0,140);
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.M6p2{
+    margin-left: 15px;
+    font-family: sans-serif;
+}

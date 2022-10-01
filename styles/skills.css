@@ -1,0 +1,183 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+/* $$$$$$$$$$$***********cloud image ***********$$$$$$$$$$ */
+#r_cloud_image_div{
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/offer/2022/cloud-certification/hero.png');
+    background-size:44rem;
+    background-color: blue;
+    cursor: pointer;
+}
+#r_cloud_image{
+    display: block;
+    margin: auto;
+    background-color: rgb(101, 177, 232);
+}
+
+
+/*$$$$$$$$$$$*********** top tech image **********$$$$$$$$*/
+#r_top_tech_image_div{
+    display: flex;
+    height: auto;
+    color: white;
+}
+#r_top_tech_image_div>div{
+    margin: auto;
+}
+#r_top_tech_image_div>div:nth-child(1)
+{
+    width: 30%;
+    height: 70vh;
+    background-color: black;
+}
+#r_main_head{
+    font-size: 36px;
+    margin: 15vh 0;
+}
+#r_top_tech_image_div>div:nth-child(2)
+{
+    width: 70%;
+    height: 70vh;
+    background-image: url('https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+}
+#r_try_btn{
+    padding: 18px 34px 18px 34px;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC008C;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin: 60vh 10vh 0 10vh;
+}
+
+/* $$$$$$$$$*********course div *********$$$$$$$$$*/
+#r_course_div{
+    margin: 5vh 2vh;
+    padding: 2%;
+    background-color: #222222;
+    color: white;
+    border-radius: 10px;
+}
+#r_course_div>div{
+    text-align: center;
+}
+.r_space{
+    margin: 3vh 0;
+}
+.r_course_voilet_head{
+    color: #EC008C;
+}
+#r_course_div>div:nth-child(2){
+    margin-top: 10vh;
+    display: flex;
+    text-align: left;
+}
+#r_course_div>div:nth-child(2)>div{
+    width: 45%;
+    margin: auto;
+}
+#r_child_course_div{
+    display: flex;
+    margin: 2vh 0 11.6vh 0;
+}
+#r_child_course_div>div{
+    margin: auto;
+}
+#r_child_course_div p{
+    margin: 2vh 0;
+}
+p{
+    line-height: 4vh;
+}
+
+/*$$$$$$$$********* colorful browser **********$$$$$$$$$$*/
+#r_colorful_browser_div{
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh auto;
+    padding: 2% 0;
+    width: 80%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f15b2a , #ec018b);
+}
+#r_colorful_browser_div>p{
+    font-size: 24px;
+}
+#r_colorful_browser_div>button{
+    padding: 18px 34px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    cursor: pointer;
+}
+
+
+/* $$$$$$$$$******** Features Skills **********$$$$$$$$$$ */
+#features_skills{
+    margin: 5% auto;
+    width: 50%;
+}
+#features_skills>h1{
+    margin: 3vh 0;
+}
+
+
+/* $$$$$$$$$$********  Grid Skills ********$$$$$$$$$$$ */
+#r_grid_skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    margin: auto;
+}
+#r_grid_skills>div{
+    /* height: 100px; */
+    margin: auto;
+    padding: 5%;
+    width: 60.2%;
+    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+}
+.r_near_icon_para{
+    font-size: 18px;
+    font-weight: bold;
+}
+.r_near_icon_para+p{
+    margin-top: 5%;
+}
+.r_near_icon_para~a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5% 0;
+}
+.r_increasing_sign{
+    color: #EC008C;
+}
+
+/*$$$$$$$$$********* organization logo div *********$$$$$$$$$*/
+#r_organization_div{
+    margin-top: 5%;
+}
+#r_child_organization_div{
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-around;
+}
+#r_child_organization_div>img{
+    width: 6%;
+}
