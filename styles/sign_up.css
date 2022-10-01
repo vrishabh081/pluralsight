@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#r_log_in{
+    display: flex;
+}
+#r_first_part_log_in_div{
+    width: 550px;
+    text-align: center;
+    color: white;
+    background-color: #181818;
+}
+#r_first_part_log_in_div>img{
+    width: 55%;
+    margin-top: 5vh;
+}
+#form{
+    width: 65%;
+    margin: auto;
+    margin-top: 5vh;
+}
+#r_text, #r_password, #r_email{
+    display: block;
+    margin: auto;
+    padding: 2.3vh 0;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.436);
+    background-color: #181818;
+    color: white;
+    border-radius: 5px;
+}
+.sign_create{
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 99%;
+    height: 7vh;
+    cursor: pointer;
+}
+#r_sign_up_btn{
+    background-color: #5c5c5c73;
+    margin-top: 5vh;
+}
+#r_sign_up_btn:hover{
+    background-color: #0074AB;
+}
+#r_sign_in_btn{
+    background-color: #0074AB;
+}
+#r_sign_in_btn:hover{
+    background-color: #5c5c5c73;
+}
+#r_first_part_log_in_div a{
+    color: #00aeff;
+    display: block;
+    margin: 3vh 0;
+    text-decoration: none;
+}
+.p_align{
+    text-align: left;
+    margin-top: 4vh;
+    font-weight: bold;
+}
+#r_second_part_log_in_div{
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/login/login-h1.png');
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#r_second_part_log_in_div>img{
+    display: block;
+    margin: auto 0 auto auto;
+    width:65%;
+}
+
+/*$$$$$$$$$********* for responsive- *********$$$$$$$$$*/
+@media screen and (max-width:780px){
+    #r_first_part_log_in_div{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    #r_second_part_log_in_div{
+        display: none;
+    }
+}
