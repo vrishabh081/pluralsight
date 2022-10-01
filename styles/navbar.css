@@ -69,6 +69,9 @@
     height: 50px;
     margin-top: 15px;
     margin-right: 40px;
+     display: flex;
+     justify-content: space-between;
+     font-weight: 700;
 
 }
 #branch2>img+button{
@@ -87,6 +90,7 @@
 #branch2>img+button+button{
     width: 142px;
     height: 40px;
+
     font-size: 14px;
 
 
@@ -95,4 +99,3 @@
     font-weight: 700;
     border-color: 0px;
 }
-

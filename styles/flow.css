@@ -266,6 +266,7 @@ margin-bottom: 20px;
     height: 47px;
     font-size: 17px;
     color: #181818;
+
     font-weight: 300;  
    
 }
@@ -354,6 +355,21 @@ color: #FFFFFF;
     margin-left: 160px;
     margin-top: 35px;
     font-size: 48px;
+=======
+    font-weight: 300;
+
+    display: block;
+    font-size: 42px;
+    line-height: 48px;
+    font-family: 'PS Commons Bold';
+    font-weight: normal !important;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #fff;
+   text-align: start;
+}
+#n_banner1>div>div>div>h1{
+
     
 }
 #n_img4>.n_logo>.n_head+h4{

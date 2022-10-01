@@ -1,0 +1,8 @@
+/* ---------Top Section Start------- */
+#top_bgimg {
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/solutions/talent-mobility-hero.png');
+    background-position: 330px 0px;
+    background-size: initial;
+    background-repeat: no-repeat, repeat;
+    /* background-attachment: fixed; */
+}

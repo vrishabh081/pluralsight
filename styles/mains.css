@@ -1,0 +1,171 @@
+body {
+    color: #fff;
+    margin: 0%;
+    padding: 0%;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* -----container Start------- */
+#container {
+
+    background-color: black;
+    max-width: 100%;
+    /* height: 600px; */
+}
+
+/* -----container End------- */
+
+/* ------------------------------------------------------- */
+
+/* ---------Top Section Start------- */
+
+
+#img-section {
+    display: flex;
+    margin-left: 55px;
+}
+
+#title {
+    color: white;
+    /* border: 1px solid red; */
+    margin-top: 150px;
+    margin-left: -175px;
+}
+
+#title>h1 {
+    font-size: 56px;
+    line-height: 100%;
+    text-transform: none;
+    font-weight: bolder;
+}
+
+#btn-contact {
+    margin-top: -50px;
+    margin-left: 99px;
+    /* padding-bottom: 90px; */
+}
+
+#btn-contact>button {
+    background-image: linear-gradient(to right, #f05a28, #ec008c, #f05a28);
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding: 18px 34px;
+    line-height: 1.1;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ---------Top Section End------- */
+
+/* ------------------------------------------------------- */
+
+/* -------mid-section Start-------- */
+#mid-section {
+    display: flex;
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/solutions/solutions-background.png');
+    background-position: 0px -70px;
+
+}
+
+
+#mid-bgColor {
+    display: flex;
+    background-color: #181818;
+    margin: auto;
+    width: 95%;
+    margin-top: 100px;
+
+}
+
+
+
+#img-left-section {
+    margin: 60px;
+    padding: 20px;
+}
+
+#contain-right div {
+    margin: 60px;
+    margin-left: 40px;
+    /* padding: 20px; */
+    color: #fff;
+}
+
+#container-items>h1 {
+    font-size: 50px;
+}
+
+#container-items>p {
+    font-size: 18px;
+}
+
+/* -------mid-section End-------- */
+
+/* ------------------------------------------------------- */
+
+/* ---------second-mid-section Start--------- */
+
+#second-mid-section {
+    background-color: #0E0E0E;
+    padding: 30px;
+}
+
+#second-mid-section>div {
+    width: 70%;
+    margin: auto;
+}
+
+.image-section {
+    padding-top: 60px;
+
+}
+
+.mid-heading>h3 {
+    font-size: 34px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* ---------second-mid-section End--------- */
+
+/* ------------------------------------------------------- */
+
+/* --------buttom-section Start------- */
+
+#buttom-section {
+
+    background-color: #0E0E0E;
+}
+
+#buttom-section>div {
+    width: 90%;
+    margin: auto;
+    /* margin-top: 80px; */
+}
+
+#buttom-heading {
+    padding: 3px;
+}
+
+#buttom-heading>h2 {
+    font-size: 40px;
+
+}
+
+#buttom-contain {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#text-left,
+li {
+    font-size: 18px;
+}
+
+/* --------buttom-section End------- */
