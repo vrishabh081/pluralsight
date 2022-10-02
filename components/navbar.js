@@ -8,6 +8,7 @@ let solutions_box = document.getElementById('solutions-box');
 
 
 let solution_box = document.getElementById('solution-box');
+let resource_box = document.getElementById('Resource-box');
 
 
 
@@ -31,11 +32,13 @@ one.addEventListener('click', function solutionClick(e) {
     if (solutions_box.style.display === 'none' || e.target.id == 'solutions_box') {
         solution_box.style.display = 'none';
         solutions_box.style.display = 'flex';
-
+        resource_box.style.display = "none";
         anchor_tag2.style.borderBottom = "none"
+        anchor_tag3.style.borderBottom = "none"
 
         arrow1.style.transform = "rotate(180deg)";
         arrow2.style.transform = "rotate(0deg)";
+        arrow3.style.transform = "rotate(0deg)";
 
         anchor_tag1.style.borderBottom = "0.3em solid #f05a28"
         anchor_tag1.style.paddingBottom = "34.5px"
@@ -54,11 +57,15 @@ two.addEventListener('click', function solutionClick(e) {
     if (solution_box.style.display === "none" || e.target.id == 'solution_box') {
         solution_box.style.display = "flex";
         solutions_box.style.display = "none";
+        resource_box.style.display = "none";
+
         anchor_tag1.style.borderBottom = "none"
+        anchor_tag3.style.borderBottom = "none"
         anchor_tag2.style.borderBottom = "0.3em solid #f05a28"
         anchor_tag2.style.paddingBottom = "34.5px"
 
         arrow1.style.transform = "rotate(0deg)";
+        arrow3.style.transform = "rotate(0deg)";
         arrow2.style.transform = "rotate(180deg)";
     } else {
         solution_box.style.display = 'none';
@@ -68,11 +75,25 @@ two.addEventListener('click', function solutionClick(e) {
 
 });
 
-three.addEventListener('click', function solutionClick() {
+three.addEventListener('click', function solutionClick(e) {
 
-    anchor_tag3.style.borderBottom = "0.3em solid #f05a28"
-    anchor_tag3.style.paddingBottom = "34.5px";
+    if (resource_box.style.display === "none" || e.target.id == 'Resource-box') {
+        resource_box.style.display = "flex";
+        solution_box.style.display = "none";
+        solutions_box.style.display = "none";
 
+        anchor_tag1.style.borderBottom = "none"
+        anchor_tag2.style.borderBottom = "none"
+
+        anchor_tag3.style.borderBottom = "0.3em solid #f05a28"
+        anchor_tag3.style.paddingBottom = "34.5px";
+        arrow3.style.transform = "rotate(180deg)";
+
+    } else {
+        resource_box.style.display = "none";
+        anchor_tag3.style.borderBottom = "none"
+        arrow3.style.transform = "rotate(0deg)";
+    }
 
 });
 
@@ -99,9 +120,9 @@ let heading9 = document.getElementById('heading9');
 
 let solBoxItems1 = document.getElementById('sol-box-items1');
 
-// solBoxItems1.addEventListener('click', function openPage() {
-//     // window.localStorage.href = '/engineer-onboarding.html';
-//     alert = 'hello'
+// solBoxItems1.addEventListener('click', function () {
+//     window.localStorage.href = 'engineer-onboarding.html';
+//     // alert = 'hello'
 // })
 
 div1.addEventListener('mouseover', function handleClick() {
