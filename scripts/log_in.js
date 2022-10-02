@@ -17,3 +17,9 @@ document.getElementById("r_sign_in_btn").addEventListener("click", function()
         alert("Wrong input");
     }
 })
+
+let logo = document.getElementById("logo");
+logo.addEventListener("click", function()
+{
+    location.href = "index.html";
+})

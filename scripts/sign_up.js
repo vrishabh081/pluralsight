@@ -24,3 +24,9 @@ const Log_in = ()=>
 {
     location.href = "log_in.html";
 }
+
+let logo = document.getElementById("logo");
+logo.addEventListener("click", function()
+{
+    location.href = "index.html";
+})
