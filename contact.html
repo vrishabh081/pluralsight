@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/contact.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+  <div id="g_navbar">
+
+  </div>
      <div id = "contact">
         <img src = "https://www.pluralsight.com/content/dam/ps-nav-assets/feature-images/feature-state-of-upskilling.webp"/>
         <p>I am intrested in :</p>
@@ -188,3 +192,8 @@
          <p class = "a">See our customer stories ></p>
 </body>
 </html>
+<script>
+  $(function () {
+      $('#g_navbar').load('header.html');
+  })
+</script>
