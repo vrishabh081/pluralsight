@@ -8,6 +8,9 @@ body {
     overflow: auto;
 }
 
+.mid-nav-btn {
+    margin-top: 11px;
+}
 
 #n_nav1 {
     width: 100%;
@@ -142,23 +145,42 @@ body {
     right: 0px;
 }
 
-#solutions-box {
+/* #solutions-box {
     display: none;
     background-color: white;
     padding: 45px;
+    border: 1px solid red;   
 
+} */
+#solutions-box {
+    display: none;
+    background-color: white;
+    padding-bottom: 150px;
+    background-color: transparent;
+    cursor: default;
+
+    /* padding: 45px; */
+    /* border: 1px solid red; */
 }
 
 
 
 
 #solutions {
-    width: 90%;
+    /* width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    cursor: default;
+    cursor: default; */
+
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: white;
+    padding: 65px;
 }
 
 
@@ -179,6 +201,7 @@ body {
 .sol-box-items:hover {
     background: #eaeaea;
     border-radius: 8px;
+    cursor: pointer;
     /* transition: all 2s ease; */
 }
 
@@ -241,22 +264,37 @@ body {
 }
 
 /* ***************** */
+
 #solution-box {
     display: none;
     width: 100%;
     overflow: auto;
     background-color: white;
-    padding: 45px;
+    /* padding: 45px; */
     cursor: default;
+
+
+    padding-bottom: 150px;
+    background-color: transparent;
 }
 
 #solution {
-    width: 90%;
+    /* width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding-left: 140px;
+    background: white; */
+
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    cursor: default;
+    background: white;
+    padding: 65px;
 }
 
 
