@@ -342,3 +342,8 @@ body {
 .sol-box-items>div>img {
     margin: 12px;
 }
+
+.sol-box-text a {
+    text-decoration: none;
+    color: black;
+}
