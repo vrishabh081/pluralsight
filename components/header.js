@@ -1,7 +1,7 @@
 function header() {
 
     return `<div id="n_nav1">
-        <a href=""><img src="https://www.pluralsight.com/content/dam/ps-nav-assets/pluralsight-company-white-logo.png" alt=""></a>
+        <a href="index.html"><img src="https://www.pluralsight.com/content/dam/ps-nav-assets/pluralsight-company-white-logo.png" alt=""></a>
         <div>
             <a>Pluralsight</a>
             <a>Skills</a>
