@@ -97,6 +97,13 @@ let heading7 = document.getElementById('heading7');
 let heading8 = document.getElementById('heading8');
 let heading9 = document.getElementById('heading9');
 
+let solBoxItems1 = document.getElementById('sol-box-items1');
+
+// solBoxItems1.addEventListener('click', function openPage() {
+//     // window.localStorage.href = '/engineer-onboarding.html';
+//     alert = 'hello'
+// })
+
 div1.addEventListener('mouseover', function handleClick() {
     heading1.style.color = '#ec008c';
 });

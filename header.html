@@ -7,7 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/header.css">
     <style>
-
+        #top-button>a {
+            text-decoration: none;
+            color: white;
+        }
     </style>
 </head>
 
@@ -16,14 +19,14 @@
     <div id="n_nav1">
         <a href=""><img src="https://www.pluralsight.com/content/dam/ps-nav-assets/pluralsight-company-white-logo.png"
                 alt=""></a>
-        <div>
-            <a>Pluralsight</a>
-            <a>Skills</a>
-            <a>Flow</a>
-            <a>Blog</a>
+        <div id="top-button">
+            <a href="index.html">Pluralsight</a>
+            <a href="skills">Skills</a>
+            <a href="flow.html">Flow</a>
+            <a href="#">Blog</a>
             <div>
                 <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/nav-profile-image.svg">
-                <a>Sign in</a>
+                <a href="log_in.html" style="text-decoration: none; color:white">Sign in</a>
                 <span><i class="ps-nav-arrow"></i></span>
 
             </div>
@@ -45,110 +48,115 @@
                     <!-- style="background-color: blue; opacity: 1; -->
                     <div id="solutions">
                         <div id="sol_box-lef">
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items1">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-engineer-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading1" class="sol-box-text">
-                                    <h4 id="heading1">Engineer onboarding <span class="sol-arrow"><img
-                                                src="/img/arrow-16.png" alt=""></span></h4>
+                                    <h4 id="heading1"><a href="engineer-onboarding.html">Engineer onboarding</a> <span
+                                            class="sol-arrow"><img src="/img/arrow-16.png" alt=""></span></h4>
                                     <p>Get new engineering hires to full productivity faster</p>
                                 </div>
                             </div>
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items2">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-software-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading2" class="sol-box-text">
-                                    <h4 id="heading2">Software delivery<span class="sol-arrow"><img
-                                                src="/img/arrow-16.png" alt=""></span></h4>
+                                    <h4 id="heading2"><a href="./software-delivery.html">Software delivery</a><span
+                                            class="sol-arrow"><img src="/img/arrow-16.png" alt=""></span></h4>
                                     <p>Empower software teams to ship reliable, scalable, secure code on time</p>
                                 </div>
                             </div>
-                            <div class="sol-box-items">
+                            <div class="sol-box-items " id="sol-box-items3">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-cloud-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading3" class="sol-box-text">
-                                    <h4 id="heading3">Cloud transformation<span class="sol-arrow"><img
-                                                src="/img/arrow-16.png" alt=""></span></h4>
+                                    <h4 id="heading3"><a href="./cloud-transformation.html">Cloud
+                                            transformation</a><span class="sol-arrow"><img src="/img/arrow-16.png"
+                                                alt=""></span></h4>
                                     <p>Overcome complex cloud challenges and build cloud talent from within</p>
                                 </div>
                             </div>
                         </div>
                         <div id="sol_box-mid">
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items4">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-engineer-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading4" class="sol-box-text">
-                                    <h4 id="heading4">Talent mobility <span class="sol-arrow"><img
-                                                src="/img/arrow-16.png" alt=""></span></h4>
+                                    <h4 id="heading4"><a href="./talent-mobility.html">Talent mobility</a> <span
+                                            class="sol-arrow"><img src="/img/arrow-16.png" alt=""></span></h4>
                                     <p>Build the pipelines that put your people in the right seats to succeed</p>
                                 </div>
                             </div>
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items5">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-software-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading5" class="sol-box-text">
-                                    <h4 id="heading5">Distributed & remote teams <span class="sol-arrow"><img
-                                                src="/img/arrow-16.png" alt=""></span></h4>
+                                    <h4 id="heading5"><a href="./distributed-remote-teams.html">Distributed & remote
+                                            teams</a> <span class="sol-arrow"><img src="/img/arrow-16.png"
+                                                alt=""></span></h4>
                                     <p>Reduce burnout and cycle time with insights and tools for remote teams</p>
                                 </div>
                             </div>
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items6">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-cloud-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading6" class=" sol-box-text">
                                     <h4 id="heading6">
-                                        Upskilling & reskilling <span class="sol-arrow"><img src="/img/arrow-16.png"
-                                                alt=""></span></h4>
+                                        <a href="./upskilling-reskilling.html"> Upskilling & reskilling</a> <span
+                                            class="sol-arrow"><img src="/img/arrow-16.png" alt=""></span>
+                                    </h4>
                                     <p>Build the tech skills teams need for mission-critical projects</p>
                                 </div>
                             </div>
 
                         </div>
                         <div id="sol_box-right">
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items7">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-engineer-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading7" class="sol-box-text">
                                     <h4 id="heading7">
-                                        Agile transformation <span class="sol-arrow"><img src="/img/arrow-16.png"
-                                                alt=""></span></h4>
+                                        <a href="./agile-transformation.html"> Agile transformation</a> <span
+                                            class="sol-arrow"><img src="/img/arrow-16.png" alt=""></span>
+                                    </h4>
                                     <p>Identify how your Agile journey is progressing and how to improve</p>
                                 </div>
                             </div>
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items8">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-software-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading8" class=" sol-box-text">
-                                    <h4 id="heading8">Software delivery<span class="sol-arrow"><img
-                                                src="/img/arrow-16.png" alt=""></span></h4>
+                                    <h4 id="heading8"><a href="./software-delivery.html">Software delivery</a><span
+                                            class="sol-arrow"><img src="/img/arrow-16.png" alt=""></span></h4>
                                     <p>Empower software teams to ship reliable, scalable, secure code on time</p>
                                 </div>
                             </div>
-                            <div class="sol-box-items">
+                            <div class="sol-box-items" id="sol-box-items9">
                                 <div>
                                     <img src="https://www.pluralsight.com/content/dam/ps-nav-assets/solutions/solutions-cloud-icon.png"
                                         alt="" width="42">
                                 </div>
                                 <div id="text-heading9" class="sol-box-text">
                                     <h4 id="heading9">
-                                        Opportunity Academies <span class="sol-arrow"><img src="/img/arrow-16.png"
-                                                alt=""></span></h4>
+                                        <a href="./opportunity-academies.html">Opportunity Academies</a> <span
+                                            class="sol-arrow"><img src="/img/arrow-16.png" alt=""></span>
+                                    </h4>
                                     <p>Source and develop the talent you need—and close opportunity gaps</p>
                                 </div>
                             </div>
