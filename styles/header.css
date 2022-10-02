@@ -8,6 +8,9 @@ body {
     overflow: auto;
 }
 
+.mid-nav-btn {
+    margin-top: 11px;
+}
 
 #n_nav1 {
     width: 100%;
@@ -131,35 +134,56 @@ body {
     border-color: 0px;
 }
 
-/* ******** ******** */
+/* ******** *************************** */
 
 
 .ddown {
     position: absolute;
-    top: 170px;
+    top: 131px;
     /* background-color: #ECECED; */
     z-index: 1;
     right: 0px;
 }
 
+/* #solutions-box {
+    display: none;
+    background-color: white;
+    padding: 45px;
+    border: 1px solid red;   
+
+} */
 #solutions-box {
     display: none;
+    background-color: white;
+    padding-bottom: 150px;
+    background-color: transparent;
+    cursor: default;
+    overflow: auto;
 
+    /* padding: 45px; */
+    /* border: 1px solid red; */
 }
 
 
-#one:hover #solutions-box {
-    /* display: flex; */
-}
+
 
 #solutions {
-    width: 90%;
+    /* width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    cursor: default; */
 
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: white;
+    padding: 65px;
 }
+
 
 #solutions>div {
     /* border: 1px solid red; */
@@ -170,10 +194,16 @@ body {
 
 }
 
+.sol-box-item {
+    display: flex;
+
+}
+
 .sol-box-items:hover {
-    background: #F5F5F5;
+    background: #eaeaea;
     border-radius: 8px;
-    transition: all 2s ease;
+    cursor: pointer;
+    /* transition: all 2s ease; */
 }
 
 .sol-box-items>div {
@@ -188,7 +218,7 @@ body {
     margin: 0%;
     padding: 13px;
     padding-bottom: 1px;
-    /* color: #ec008c; */
+    color: black;
 
 }
 
@@ -197,6 +227,9 @@ body {
     padding: 11px;
     padding-top: 4px;
     color: #636363;
+    font-weight: normal;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sol-arrow {
@@ -207,7 +240,11 @@ body {
 
 .sol-box-items:hover .sol-arrow {
     display: block;
-    transition: all 2s ease;
+    transition: all 2ms ease;
+}
+
+.sol-nav-list:hover .sol-arrow {
+    display: block;
 }
 
 .anchor-tag:hover {
@@ -225,4 +262,84 @@ body {
     rotate: 90deg;
     margin-left: 74px;
 
+}
+
+/* ***************** */
+
+#solution-box {
+    display: none;
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    /* padding: 45px; */
+    cursor: default;
+
+
+    padding-bottom: 150px;
+    background-color: transparent;
+}
+
+#solution {
+    /* width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 140px;
+    background: white; */
+
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    cursor: default;
+    background: white;
+    padding: 65px;
+}
+
+
+
+.sol-box-items {
+    display: flex;
+    /* cursor: pointer; */
+
+}
+
+#sol_box-mid {
+    border-left: 1px solid rgb(211, 211, 211);
+    border-right: 1px solid rgb(211, 211, 211);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.sol-nav-list {
+    margin-top: 6px;
+    /* margin-left: -35px; */
+    list-style: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    color: #636363;
+    font-weight: normal;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sol-nav-list:hover {
+
+    background: #F5F5F5;
+    border-radius: 8px;
+    color: #ec008c;
+    cursor: pointer;
+
+}
+
+
+
+.sol-box-items>div>img {
+    margin: 12px;
 }

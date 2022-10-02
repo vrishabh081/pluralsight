@@ -2,33 +2,68 @@
 let one = document.getElementById('one');
 let two = document.getElementById('two');
 let three = document.getElementById('three');
+
 let solutions_box = document.getElementById('solutions-box');
+
+
+
+let solution_box = document.getElementById('solution-box');
+
+
+
 let anchor_tag1 = document.getElementById('btnProduct1');
 let anchor_tag2 = document.getElementById('btnProduct2');
 let anchor_tag3 = document.getElementById('btnProduct3');
-let arrow = document.getElementById('arrow');
+let arrow1 = document.getElementById('arrow1');
+let arrow2 = document.getElementById('arrow2');
+let arrow3 = document.getElementById('arrow3');
 
-one.addEventListener('click', function solutionClick() {
-    if (solutions_box.style.display === 'none') {
+// if (e.target.id == 'backgroundOverlay') {
+//     popup.style.display = 'none';
+//     overlay.style.display = 'none';
+// }
+// if (e.target === openButton) {
+//     popup.style.display = 'block';
+//     overlay.style.display = 'block';
+// }
+
+one.addEventListener('click', function solutionClick(e) {
+    if (solutions_box.style.display === 'none' || e.target.id == 'solutions_box') {
+        solution_box.style.display = 'none';
         solutions_box.style.display = 'flex';
+
+        anchor_tag2.style.borderBottom = "none"
+
+        arrow1.style.transform = "rotate(180deg)";
+        arrow2.style.transform = "rotate(0deg)";
+
         anchor_tag1.style.borderBottom = "0.3em solid #f05a28"
-        anchor_tag1.style.paddingBottom = "45.5px"
+        anchor_tag1.style.paddingBottom = "34.5px"
 
     } else {
         solutions_box.style.display = 'none';
         anchor_tag1.style.borderBottom = "none"
-
+        arrow1.style.transform = "rotate(0deg)";
     }
 });
 
 
 
-two.addEventListener('click', function solutionClick() {
-    if (true) {
-        anchor_tag2.style.borderBottom = "0.3em solid #f05a28"
-        anchor_tag2.style.paddingBottom = "45.5px";
-    } else {
+
+two.addEventListener('click', function solutionClick(e) {
+    if (solution_box.style.display === "none" || e.target.id == 'solution_box') {
+        solution_box.style.display = "flex";
+        solutions_box.style.display = "none";
         anchor_tag1.style.borderBottom = "none"
+        anchor_tag2.style.borderBottom = "0.3em solid #f05a28"
+        anchor_tag2.style.paddingBottom = "34.5px"
+
+        arrow1.style.transform = "rotate(0deg)";
+        arrow2.style.transform = "rotate(180deg)";
+    } else {
+        solution_box.style.display = 'none';
+        anchor_tag2.style.borderBottom = "none"
+        arrow2.style.transform = "rotate(0deg)";
     }
 
 });
@@ -36,7 +71,7 @@ two.addEventListener('click', function solutionClick() {
 three.addEventListener('click', function solutionClick() {
 
     anchor_tag3.style.borderBottom = "0.3em solid #f05a28"
-    anchor_tag3.style.paddingBottom = "45.5px";
+    anchor_tag3.style.paddingBottom = "34.5px";
 
 
 });
