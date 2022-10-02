@@ -1,0 +1,201 @@
+#Mnav{
+    width: 100%;
+    height: 50px;
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/b2c-promos/cloud-happy/image%20(74).png');
+}   
+
+#Mcontent1{
+    width: 100%;
+    height: 1150px;
+    padding-top: 15px;
+    background: linear-gradient(30deg, rgba(126, 6, 78, 0.75) 0%, rgb(32, 32, 32) 50%, rgb(234, 42, 94) 90%);
+}
+
+#hero{
+    display: block;
+    width: 100%;
+    height: 450px;
+    
+    border-radius: 25px 25px 0px 0px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+    
+}
+
+/* bootstrap */
+#hero .static-txt{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#hero .dynamic-txt{
+    font-family: sans-serif;
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txt li{
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+}
+
+.dynamic-txt li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing{
+    40%, 60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+}
+
+#hero2{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#hero2 button{
+    width: 150px;
+    height: 55px;
+    font-size: large;
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(236, 0, 140);
+    background-image: linear-gradient(to right, rgb(240, 90, 40), rgb(236, 0, 140), rgb(240, 90, 40));
+    background-clip: border-box;
+    background-size: 300% 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+/* Subcontent 2 */
+#Msubcont2{
+    display: flex;
+    width: 100%;
+    height: 387px;;
+    border-radius: 0px 0px 25px 25px;
+    background: rgba(0,0,0,.5);
+}
+
+#Msubcont2 div{
+    width: 50%;
+}
+
+#Mmen{
+    width: 600px;
+    height: 380px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+/* Subcontent 3 */
+#Msubcont3 p{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+#Msubcont_img{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#dell{
+    width: 200px;
+    margin-top: 20px;
+}
+#ge{
+    width: 200px;
+}
+#fed{
+    width: 150px;
+}
+#ford{
+    width: 150px;
+}
+#bt{
+    width: 70px;
+}
+
+/* PART 2 */
+#Mcontent2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+#Msubcont1p2{
+    width: 100%;
+}
+#Msubcont1p2 h1{
+    font-size: 60PX;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 180px;
+}
+
+#Msubcont1p2 p{
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 25px;
+    line-height: 27px;
+    margin-right: 15px;
+}
+
+#Msubcont1p2 button{
+    width: 220px;
+    height: 55px;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(236, 0, 140);
+    background-image: linear-gradient(to right, rgb(240, 90, 40), rgb(236, 0, 140), rgb(240, 90, 40));
+    background-clip: border-box;
+    background-size: 300% 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+
+#Msubcont2p2{
+    width: 100%;
+}
+
+#Msubcont2p2 img{
+    margin-top: 100px;
+    margin-left: 30px;
+}
