@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/Public_Sector.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <style>
         
         /* PART 4 */
@@ -101,6 +103,8 @@
     </style>
 </head>
 <body>
+    <!-- HEADER -->
+    <div id="header"></div>
     <!-- PART 1 -->
     <div id="Mpublic1">
         <p id="Mpublic1p1">GOVERNMENT</p>
@@ -192,5 +196,14 @@
             </div>
         </div>
     </div>
+    <div id="footer">
+       
+    </div>
 </body>
 </html>
+<script>
+    $(function () {
+        $('#header').load('header.html');
+    })
+</script>
+<script src="./components/footer.js"></script>
