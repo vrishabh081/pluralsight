@@ -1,0 +1,259 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+/* $$$$$$$$$$$***********cloud image ***********$$$$$$$$$$ */
+#r_cloud_image_div{
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/offer/2022/cloud-certification/hero.png');
+    background-size:44rem;
+    background-color: blue;
+    cursor: pointer;
+}
+#r_cloud_image{
+    display: block;
+    margin: auto;
+    background-color: rgb(101, 177, 232);
+}
+
+
+/*$$$$$$$$$$$*********** top tech image **********$$$$$$$$*/
+#r_top_tech_image_div{
+    background-image: url('https://www.pluralsight.com/content/pluralsight/en/product/skills/jcr:content/main/generic_block1_copy_/image-res.img.76b3d816-71a6-42a0-bda5-b56969081f12.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 65vh;
+    margin: auto 0px auto auto;
+    width: 100%;
+    color: white;
+}
+#r_top_tech_image_div>img{
+    display: inline;
+    margin: 2% 0 0 2%;
+}
+#r_top_tech_image_div>h1{
+    font-size: 3.1rem;
+}
+#r_top_tech_image_div>h1{
+    margin: -32vh 7% 0 6%;
+    margin-bottom: auto;
+}
+#r_top_tech_image_div>p{
+    margin: auto 7% 0 6%;
+}
+#r_top_tech_image_div>button{
+    margin: 3% 7% 0 6%;
+    padding: 1.3% 5%;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #f15b2a , #ec018b);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+/* $$$$$$$$$*********course div *********$$$$$$$$$*/
+#r_course_div{
+    margin: 5vh 2vh;
+    padding: 2%;
+    background-color: #222222;
+    color: white;
+    border-radius: 10px;
+}
+#r_course_div>div{
+    text-align: center;
+}
+.r_space{
+    margin: 3vh 0;
+}
+.r_course_voilet_head{
+    color: #EC008C;
+}
+#r_course_div>div:nth-child(2){
+    margin-top: 10vh;
+    display: flex;
+    text-align: left;
+}
+#r_course_div>div:nth-child(2)>div{
+    width: 45%;
+    margin: auto;
+}
+#r_child_course_div{
+    display: flex;
+    margin: 2vh 0 11.6vh 0;
+}
+#r_child_course_div>div{
+    margin: auto;
+}
+#r_child_course_div p{
+    margin: 2vh 0;
+}
+p{
+    line-height: 4vh;
+}
+
+/*$$$$$$$$********* colorful browser **********$$$$$$$$$$*/
+#r_colorful_browser_div{
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh auto;
+    padding: 2% 0;
+    width: 80%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f15b2a , #ec018b);
+}
+#r_colorful_browser_div>p{
+    font-size: 24px;
+}
+#r_colorful_browser_div>button{
+    padding: 18px 34px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    cursor: pointer;
+}
+
+
+/* $$$$$$$$$******** Features Skills **********$$$$$$$$$$ */
+#features_skills{
+    margin: 5% auto;
+    width: 50%;
+}
+#features_skills>h1{
+    margin: 3vh 0;
+}
+
+
+/* $$$$$$$$$$********  Grid Skills ********$$$$$$$$$$$ */
+#r_grid_skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    margin: auto;
+}
+#r_grid_skills>div{
+    /* height: 100px; */
+    margin: auto;
+    padding: 5%;
+    width: 60.2%;
+    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+}
+.r_near_icon_para{
+    font-size: 18px;
+    font-weight: bold;
+}
+.r_near_icon_para+p{
+    margin-top: 5%;
+}
+.r_near_icon_para~a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5% 0;
+}
+.r_increasing_sign{
+    color: #EC008C;
+}
+
+/*$$$$$$$$$********* organization logo div *********$$$$$$$$$*/
+#r_organization_div{
+    margin-top: 5%;
+}
+#r_child_organization_div{
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-around;
+}
+#r_child_organization_div>img{
+    width: 6%;
+}
+
+/*$$$$$$$$********* ROI div *********$$$$$$$$$*/
+
+#r_ROI_div{
+    background-image: linear-gradient(to right,#ec018b, #f15b2a);
+    text-align: center;
+    padding: 5vh 0;
+}
+#r_ROI_div>h1{
+    color: white;
+    margin: 2% 0;
+}
+#r_child_ROI_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 2% 0;
+}
+#r_child_ROI_div>div{
+    margin: auto;
+    width: 50%;
+    color: #181818;
+}
+#r_child_ROI_div>div>img{
+    width: 80%;
+}
+#r_child_ROI_div>div>p{
+    margin: 5% 0;
+}
+
+/*$$$$$$$$$********** watch story div **********$$$$$$$$$$*/
+#r_watch_story_div{
+    margin: 3vh 0;
+    color: white;
+    display: flex;
+    padding: 10vh 0;
+}
+#r_watch_story_div>div{
+    margin: auto;
+}
+#r_watch_story_div>img,#r_watch_story_div>p{
+    margin: 2%;
+}
+#r_watch_story_div p, #r_watch_story_div a{
+    margin: 3% 0;
+}
+#r_watch_story_div a{
+    color: white;
+    text-decoration: none;
+}
+.font_bold{
+    font-weight: bold;
+}
+
+/*$$$$$$$$********* Pricing Div-********$$$$$$$$*/
+#r_pricing_div{
+    color: white;
+    text-align: center;
+    background-color: #222222;
+    margin: 2% 0;
+    padding: 2% 0;
+}
+#r_pricing_div h1, #r_pricing_div h2, #r_pricing_div p{
+    margin: 2% 0;
+}
+#r_child_pricing_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#r_child_pricing_div>div{
+    margin: 2vh;
+    padding: 10vh 0;
+    box-shadow: rgba(189, 188, 195, 0.15) 0px 48px 100px 0px;
+}
+#r_pricing_div button{
+    padding: 2.5vh 5.5vh;
+    background-image: linear-gradient(to right,#ec018b, #f15b2a);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
