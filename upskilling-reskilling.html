@@ -8,9 +8,11 @@
     <title>distributed-remote-teams</title>
     <link rel="stylesheet" href="/styles/mains.css">
     <link rel="stylesheet" href="/styles/distributed-remote-teams.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
+    <div id="header"></div>
 
     <div id="container">
 
@@ -151,3 +153,9 @@
 </body>
 
 </html>
+
+<script>
+    $(function () {
+        $('#header').load('header.html');
+    })
+</script>

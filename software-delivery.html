@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>software-delivery</title>
     <link rel="stylesheet" href="/styles/software.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-
+    <div id="header"></div>
     <div id="container">
 
         <div id="top-section">
@@ -139,7 +140,11 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
+<script>
+    $(function () {
+        $('#header').load('header.html');
+    })
+</script>

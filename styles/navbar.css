@@ -72,6 +72,7 @@
      display: flex;
      justify-content: space-between;
      font-weight: 700;
+
 }
 #branch2>img+button{
     width: 164px;
@@ -89,4 +90,12 @@
 #branch2>img+button+button{
     width: 142px;
     height: 40px;
+
     font-size: 14px;
+
+
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    color: white;
+    font-weight: 700;
+    border-color: 0px;
+}
